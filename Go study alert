@@ -1,0 +1,5 @@
+
+var Hello = "What is your name?"
+prompt(Hello);
+if (confirm('Go study')) {
+}
