@@ -1,0 +1,13 @@
+var hello = prompt('are you an asian');
+if(hello=='yes')
+{
+     alert('How is the corona virus then');
+} 
+ else if(hello=='no')
+{   
+     alert("you are safe then, congrats");
+}
+ else if(hello=='bruh')
+{    
+     alert("You happen to be an idiot");
+}     
