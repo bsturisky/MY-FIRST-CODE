@@ -1,13 +1,21 @@
-var hello = prompt('are you an asian');
-if(hello=='yes')
+var hello = prompt('What is your name?');
+if(hello=='lauren')
 {
-     alert('How is the corona virus then');
+     alert('give me the debit card now');
 } 
- else if(hello=='no')
+ else if(hello=='hilton')
 {   
-     alert("you are safe then, congrats");
+     alert('how is Crawford doing?');
 }
- else if(hello=='bruh')
+ else if(hello=='elliot')
 {    
-     alert("You happen to be an idiot");
+     alert('code something better then this I dare you');
 }     
+ else if(hello=='benjamin')
+{
+     alert('we are gonna get smacked by Milton');
+}
+ else if(hello=='jared')
+{
+     alert('study for your act')
+}
