@@ -1,22 +1,24 @@
+window.score = 0;
 let hello = prompt('What is your name?');
 alert(`Hello ${hello}, I hope you are excited`)
-hello = prompt('Are you ready to play the game?');
- if(hello==='yes')
+let dragon = prompt('Are you ready to play the game?');
+ if(dragon==='yes')
 {     
      alert('Awesome, the game will commence shortly.');
 }
- else if(hello==='no')
+ else if(dragon==='no')
 {
      alert('That is unfortunate, but you stil have to answer the questions');
 }
 alert('Here comes your first question');
 let question = prompt('The first question is, how old am I?')
 if(question=='15'){alert('Congrats, you are correct.')}else{alert('Sorry, that is not the right answer.')}
+if(question=='15')(window.score = window.score + 1)
 let question2 = prompt('The second question is, what is the name of my favorite baseball team?')
 if(question2=='yankees'){alert('Congrats, you are correct')}else{alert('Sorry, that is not the right answer.')}
+if(question2=='yankees')(window.score = window.score + 1)
 let question3 = prompt('The third and final question is, where do I go to school?')
 if(question3=='riverwood'){alert('Congrats, you are correct')}else{alert('Sorry, that is not the right answer.')}
+if(question3=='riverwood')(window.score = window.score + 1)
+alert(`Your score is ${window.score}`);
 alert('I hope that was fun!');
-
-
- 
