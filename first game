@@ -22,3 +22,12 @@ if(question3=='riverwood'){alert('Congrats, you are correct')}else{alert('Sorry,
 if(question3=='riverwood')(window.score = window.score + 1)
 alert(`Your score is ${window.score}`);
 alert('I hope that was fun!');
+
+
+score = 0
+let jimmy = prompt('My name is Benjamin, what is yours?')
+alert(`What is up ${jimmy}, are you ready for the best game of your life?`);
+let bob = prompt('Are you ready for the first question?')
+if(bob=='yes'){alert('Good, your question is coming in hot, oh and extra point for saying yes!')}else{alert('You will have fun I promise, answer them!');
+if(bob=='yes')(score = score + 1)
+alert(`Congrats, your score is ${bob}!. Nice job, and thanks for playing!`);
